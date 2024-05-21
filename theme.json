@@ -45,6 +45,28 @@
 					"name": "Tertiary"
 				}
 			]
-    }
+    },
+    "typography": {
+      "customFontSize": true,
+			"dropCap": true,
+			"fontStyle": true,
+			"fontWeight": true,
+			"letterSpacing": true,
+			"lineHeight": false,
+			"textDecoration": true,
+			"textTransform": true,
+      "fontFamilies": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"fontFamily": "'Tahoma', sans-serif"
+        },
+        {
+          "name": "Secondary",
+					"slug": "secondary",
+					"fontFamily": "'Helvetica', sans-serif"
+        }
+			]
+		}
   }
 }
